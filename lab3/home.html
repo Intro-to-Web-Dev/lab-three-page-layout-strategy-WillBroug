@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+ <!--Will Broughten-->
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="MPLS Dog Boarding">
+        <meta name="keywords" content="dog, minneapolis, pet, hotel">
+        <meta name="author" content="Will Broughten">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#000000">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+        <title>MPLS Dogboarding </title>
+        <style>
+            
+            #container{
+                display: grid;
+                grid-template-columns:repeat(3 ,auto);
+                grid-template-rows:150px auto 15%;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            header{
+               grid-column-start: 1;
+               grid-column-end: 4;
+               grid-row-start: 1 ;
+               grid-row-end: 1;
+               border: 10px;
+            }
+
+            footer{
+                border: 10px;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 3;
+                grid-row-end: 3;
+                padding-top: 40px;
+            }
+
+            main{
+                border: 10px;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 2;
+            }
+
+            img{
+                display: block;
+                width: 20%;
+                margin: auto;
+            }
+
+           #flexcontainer{
+               display: flex;
+               flex-wrap: wrap;
+               width: 100%;;
+               background-image: url("img/dog_bg.jpeg");
+               background-position: center;
+               background-size: cover;
+           }
+
+           .item1{
+               flex-grow: 1;
+               flex-shrink: 0;
+               flex-basis: 325px;
+               height: 350px;
+               padding: 10px;
+               margin-top: 4%;
+               margin-bottom: 4%;
+               margin-left: 2%;
+               margin-left: 2%;
+               background-color: #ffffffcf;
+               border-radius: 10px;
+           }
+
+           .item2{
+               flex-grow: 1;
+               flex-shrink: 0;
+               flex-basis: 325px;
+               height: 350px;
+               padding: 10px;
+               margin-top: 4%;
+               margin-bottom: 4%;
+               margin-left: 2%;
+               margin-left: 2%;
+               background-color: #ffffffcf;
+               border-radius: 10px;
+           }
+
+           .item3{
+               flex-grow: 1;
+               flex-shrink: 0;
+               flex-basis: 325px;
+               height: 350px;
+               padding: 10px;
+               margin-top: 4%;
+               margin-bottom: 4%;
+               margin-left: 2%;
+               margin-left: 2%;
+               background-color: #ffffffcf;
+               border-radius: 10px;
+           }
+
+           body{
+               font-family: 'Montserrat',sans-serif;
+               margin: 0;
+
+           }
+
+           #copyright{
+               width: 275px;
+               margin: auto;
+           }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+
+                <header id="header">
+                    <img src="img/mpls_dog_logo.png" alt="dog logo">
+                </header>
+
+                <main id="flexcontainer">
+
+                    <aside class="item1">
+                        <h2>About Us</h2>
+                        <p>Quality dog care service - The luxury hotel for dogs!</p>
+                    </aside>
+
+                    <aside class="item2">
+                        <h2>Price</h2>
+                        <h3>Weekly Boarding</h3>
+                        <ul>
+                        <li>$425 - 7 days [24 hours from drop-off time] </li>
+                        </ul>
+                        <h3>Daily Rate: </h3>
+                        <ul>
+                        <li>$75 - 1 day [24 hours from drop-off time</li>
+                        </ul>
+                    </aside>
+
+                    <aside class="item3">
+                        <h2>Hours of Operation</h2>
+                        <ul>
+                            <li>Monday: - 7am - 6pm</li>
+                            <li>Tuesday: - 7am - 6pm</li>
+                            <li>Wednesday: - 7am - 6pm</li>
+                            <li>Thursday: 7am - 6pm</li>
+                            <li>Friday:</li>
+                        </ul>
+                    </aside>
+
+                </main>
+
+                <footer id="footer">
+                    <div id="copyright">	&#169;  2019 - 2023 MPLS Dogboarding</div>
+                </footer>
+
+        </div>
+
+    </body>
+       
+       
